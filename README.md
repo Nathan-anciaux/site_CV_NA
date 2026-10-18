@@ -21,7 +21,7 @@ js/i18n.js        les textes des deux langues, une clé par attribut data-i18n
 js/scene.js       le fond 3D : recuit simulé (Metropolis) sur un paysage d'énergie,
                   température et caméra pilotées par le défilement
 js/main.js        langue, menu, défilement fluide, animations, compteurs, carrousel des projets
-assets/           favicon, portrait.png (photo du CV), et le CV en PDF à déposer
+assets/           favicon, portrait.webp (photo du profil), et le CV en PDF à déposer
 ```
 
 **Projets** : carrousel horizontal (souris, doigt, trackpad, clavier). Chaque carte suit
