@@ -72,14 +72,19 @@
      ========================================================= */
   const counterValue = new Map(); // valeur affichée pendant l'animation
 
-  function formatNumber(n) {
-    return new Intl.NumberFormat(currentLang === 'fr' ? 'fr-FR' : 'en-GB').format(n);
+  function formatNumber(n, decimals = 0) {
+    return new Intl.NumberFormat(currentLang === 'fr' ? 'fr-FR' : 'en-GB', {
+      minimumFractionDigits: decimals,
+      maximumFractionDigits: decimals
+    }).format(n);
   }
 
   function renderCounter(el) {
     const target = Number(el.dataset.count);
     const value = counterValue.has(el) ? counterValue.get(el) : target;
-    el.textContent = formatNumber(Math.round(value));
+    const decimals = Number(el.dataset.decimals || 0); // data-decimals : chiffres après la virgule
+    const factor = 10 ** decimals;
+    el.textContent = formatNumber(Math.round(value * factor) / factor, decimals);
   }
 
   /* =========================================================

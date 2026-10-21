@@ -2,7 +2,7 @@
    Chaque clé correspond à un attribut du HTML :
    data-i18n (texte), data-i18n-html (texte avec balises), data-i18n-aria (aria-label).
    Le HTML contient la version anglaise par défaut, visible même sans JavaScript.
-     = espace insécable, utilisée avant « : », « % » et dans les nombres en français.
+     = espace insécable, utilisée avant « : », « % » et dans les nombres en français.
    Source des contenus : le CV d'octobre 2026 (CV Nathan Anciaux FR.pdf). */
 window.I18N = {
   en: {
@@ -34,28 +34,28 @@ window.I18N = {
     "hud.phase.cool": "cooling",
     "hud.phase.converge": "convergence",
 
-    "statement": "Looking for a <em>three-month internship</em>, summer 2027: data management or applied mathematics research in finance (markets, asset management).",
+    "statement": "Looking for a <em>three-month internship</em>, Summer 2027: Data Management or Applied Mathematics Research in Finance (markets, asset management).",
 
     "figures.aria": "Key figures",
     "f1.cap": "projects, in Python, C and R",
     "f2.pre": "Top",
     "f2.post": "%",
     "f2.cap": "in Linear Optimisation, year 2 (6th of 60)",
-    "f3.pre": "×",
-    "f3.cap": "parallel speed-up on 20 cores: 2,783 travelling-salesman instances solved in 79 s",
-    "f4.post": "%",
-    "f4.cap": "shorter tours than the nearest-neighbour heuristic, with my stochastic algorithm",
+    "f3.post": "M",
+    "f3.cap": "best distance found on the 115,475-city USA travelling-salesman problem; world best: 6.4 million",
+    "f4.post": " years",
+    "f4.cap": "playing musical instruments",
 
     "about.label": "01 · About",
-    "about.title": "Mathematics and AI.",
-    "about.p1": "I am a third-year student in Mathematics and AI at the University of Bordeaux, in the CMI OSIA programme (Cursus Master en Ingénierie): Optimisation, Statistics and Artificial Intelligence. It is a five-year track of the FIGURE network leading to the CMI degree, with research projects from year 3, three internships and a stay abroad.",
-    "about.p2": "Strongly drawn to finance, I want to put my knowledge of data and AI into practice in banking and finance. My goal is quantitative research: I am preparing to apply for a Master's in applied mathematics in Paris.",
+    "about.title": "Mathematics and AI",
+    "about.p1": "I am in my third year of the CMI OSIA programme (Master’s programme in Engineering, Optimisation, Statistics and Artificial Intelligence), specialising in Mathematics and AI, at the University of Bordeaux. It is a five-year programme within the FIGURE network, which leads to a CMI-accredited Master’s degree, featuring research projects from the first year onwards, 20 per cent more ECTS credits than a standard Bachelor’s degree, three work placements and an international exchange programme.",
+    "about.p2": "Strongly drawn to Finance, I want to put my knowledge of Data and AI into practice in Banking and Finance. My goal is Quantitative Research: I am preparing to apply for a Master's in Applied Mathematics in Paris.",
 
     "edu.label": "02 · Education",
-    "edu.title": "Education.",
+    "edu.title": "Education",
     "edu1.title": "Bachelor's in Mathematics and AI, CMI OSIA",
     "edu1.org": "University of Bordeaux",
-    "edu1.desc": "A track of the FIGURE network leading to the CMI degree (Cursus Master en Ingénierie): Optimisation, Statistics and Artificial Intelligence. Currently in year 3.",
+    "edu1.desc": "Courses of the FIGURE network leading to the CMI-accredited Master’s degree : Optimisation, Statistics and Artificial Intelligence. Currently in year 3.",
     "edu1.courses": "Year 3",
     "c1": "Probability & combinatorics",
     "c2": "Matrix computations",
@@ -69,11 +69,11 @@ window.I18N = {
     "c8": "Analysis",
     "c9": "Probability & statistics",
     "c10": "Computer science",
-    "edu2.title": "French Baccalauréat, with honours (mention Bien), 15.64/20",
-    "edu2.desc": "Mathematics and physics-chemistry specialities, advanced mathematics option (Mathématiques expertes).",
+    "edu2.title": "French Baccalauréat, with honours (mention Bien), 15.62/20",
+    "edu2.desc": "Mathematics and Physics-Chemistry specialities, Advanced Mathematics option.",
 
     "proj.label": "03 · Projects",
-    "proj.title": "Projects.",
+    "proj.title": "Projects",
     "proj.hint": "Drag to explore",
     "proj.aria": "Projects, scroll horizontally",
     "tsp.meta": "2026 · Python · 3 months",
@@ -112,7 +112,7 @@ window.I18N = {
     "tag.backtracking": "Backtracking",
 
     "exp.label": "04 · Experience",
-    "exp.title": "Professional experience.",
+    "exp.title": "Professional experience",
     "e1.date": "2026 · 1 month",
     "e1.title": "Data intern",
     "e1.desc": "Updated the product references of the entire stock in R; created and organised the stock database.",
@@ -126,11 +126,11 @@ window.I18N = {
     "e6.title": "Workshop leader, astronomy",
     "e6.desc": "Co-led astronomy workshops with a telescope, introducing varied audiences to the basics of the sky.",
     "e7.date": "7 years",
-    "e7.title": "Musician, drums, timpani, piano and guitar",
+    "e7.title": "Musician: Piano, Percussion (Drums, Timpani), Guitar (Electric and Acoustic)",
     "e7.desc": "Co-founder of the rock band Les Nut's (6 people) and organiser of public concerts. Member of the jazz band L'ODB (25 musicians) and of the symphony orchestra Cancophonie (50 musicians), performing in concert.",
 
     "skills.label": "05 · Skills",
-    "skills.title": "Languages and tools.",
+    "skills.title": "Languages and tools",
     "s1.title": "Programming languages",
     "s2.title": "Mathematics",
     "s2.i1": "Probability & combinatorics",
@@ -146,7 +146,7 @@ window.I18N = {
     "s4.i3": "Spanish · B1",
 
     "beyond.label": "06 · Interests",
-    "beyond.title": "Interests.",
+    "beyond.title": "Interests",
     "b4.title": "Finance",
     "b4.desc": "Personal investment in SICAV funds; member (sociétaire) of the Caisse d'Épargne.",
     "b1.title": "Music",
@@ -157,7 +157,7 @@ window.I18N = {
     "b3.desc": "Ten years, with inter-club competitions.",
 
     "contact.label": "07 · Contact",
-    "contact.title": "Contact.",
+    "contact.title": "Contact",
     "contact.text": "Looking for a three-month internship for summer 2027, in data management or in applied mathematics research for finance (markets, asset management).",
     "contact.cv": "Download CV (PDF) ↓",
 
@@ -194,28 +194,28 @@ window.I18N = {
     "hud.phase.cool": "refroidissement",
     "hud.phase.converge": "convergence",
 
-    "statement": "Recherche de <em>stage de 3 mois</em>, été 2027 : gestion de données ou recherche en mathématiques appliquées à la finance (marchés, gestion d'actifs).",
+    "statement": "Recherche de <em>stage de 3 mois</em>, été 2027 : Gestion de Données ou Recherche en Mathématiques Appliquées à la Finance (marchés, gestion d'actifs).",
 
     "figures.aria": "Chiffres clés",
     "f1.cap": "projets, en Python, C et R",
     "f2.pre": "Top",
     "f2.post": " %",
     "f2.cap": "en optimisation linéaire, L2 (6e sur 60)",
-    "f3.pre": "× ",
-    "f3.cap": "d'accélération sur 20 cœurs : 2 783 instances du voyageur de commerce résolues en 79 s",
-    "f4.post": " %",
-    "f4.cap": "de distance en moins que le plus proche voisin, avec mon algorithme stochastique",
+    "f3.post": " M",
+    "f3.cap": "meilleure distance trouvée sur le voyageur de commerce des 115 475 villes des États-Unis ; meilleure au monde : 6,4 millions",
+    "f4.post": " ans",
+    "f4.cap": "de pratique d'instruments de musique",
 
     "about.label": "01 · Profil",
-    "about.title": "Mathématiques et IA.",
-    "about.p1": "Je suis en L3 Mathématiques et IA à l'Université de Bordeaux, dans le CMI OSIA (Cursus Master en Ingénierie, Optimisation, Statistique et Intelligence Artificielle). C'est un cursus de cinq ans du réseau FIGURE, qui prépare à l'obtention du diplôme CMI, avec des projets de recherche dès la L3, trois stages et une mobilité internationale.",
-    "about.p2": "Fortement intéressé par le monde de la finance, je veux mettre en pratique mes connaissances en data et en IA dans le secteur bancaire et financier. Mon objectif est la recherche quantitative : je prépare ma candidature à un master de mathématiques appliquées à Paris.",
+    "about.title": "Mathématiques et IA",
+    "about.p1": "Je suis en L3 CMI OSIA (Cursus Master en Ingénierie, Optimisation, Statistique et Intelligence Artificielle) spécialisé en Mathématiques et IA à l'Université de Bordeaux. C'est un cursus de cinq ans du réseau FIGURE, préparant à l'obtention du Master labellisé CMI, avec des projets de recherche dès la L1, 20% D'ECTS en plus d'une licence classique, trois stages en entreprise et une mobilité internationale.",
+    "about.p2": "Fortement intéressé par le monde de la Finance, je veux mettre en pratique mes connaissances en Data et en IA dans le secteur Bancaire et Financier. Mon objectif est la Recherche Quantitative : je prépare ma candidature à un Master de Mathématiques Appliquées à Paris.",
 
     "edu.label": "02 · Formation",
-    "edu.title": "Formation.",
+    "edu.title": "Formation",
     "edu1.title": "Licence de Mathématiques-IA, CMI OSIA",
     "edu1.org": "Université de Bordeaux",
-    "edu1.desc": "Cursus du réseau FIGURE préparant à l'obtention du diplôme CMI (Cursus Master en Ingénierie, Optimisation, Statistique et Intelligence Artificielle). Actuellement en L3.",
+    "edu1.desc": "Cursus du réseau FIGURE préparant à l'obtention du Master labellisé CMI. Actuellement en L3.",
     "edu1.courses": "L3",
     "c1": "Probabilités et combinatoire",
     "c2": "Algorithmique matricielle",
@@ -229,11 +229,11 @@ window.I18N = {
     "c8": "Analyse",
     "c9": "Probabilités et statistique",
     "c10": "Informatique",
-    "edu2.title": "Baccalauréat général, mention Bien (15,64/20)",
-    "edu2.desc": "Spécialités mathématiques et physique-chimie, option mathématiques expertes.",
+    "edu2.title": "Baccalauréat général, mention Bien (15,62/20)",
+    "edu2.desc": "Spécialités Mathématiques et Physique-Chimie, option Mathématiques Expertes.",
 
     "proj.label": "03 · Projets",
-    "proj.title": "Projets.",
+    "proj.title": "Projets",
     "proj.hint": "Glisser pour explorer",
     "proj.aria": "Projets, défilement horizontal",
     "tsp.meta": "2026 · Python · 3 mois",
@@ -272,7 +272,7 @@ window.I18N = {
     "tag.backtracking": "Retour sur trace",
 
     "exp.label": "04 · Expérience",
-    "exp.title": "Expérience professionnelle.",
+    "exp.title": "Expériences professionnelles",
     "e1.date": "2026 · 1 mois",
     "e1.title": "Stagiaire data",
     "e1.desc": "Mise à jour des références produits de tout le stock en R ; création et organisation de la base de données du stock.",
@@ -286,11 +286,11 @@ window.I18N = {
     "e6.title": "Animateur, astronomie",
     "e6.desc": "Co-animation d'ateliers d'astronomie avec télescope et sensibilisation de différents publics aux bases du ciel.",
     "e7.date": "7 ans",
-    "e7.title": "Musicien, batterie, timbales, piano et guitare",
+    "e7.title": "Musicien : Piano, Percussions (Batterie, Timbales), Guitare (Électrique et Acoustique)",
     "e7.desc": "Cofondateur du groupe de rock Les Nut's (6 personnes) et organisation de concerts publics. Membre du jazz band L'ODB (25 musiciens) et de l'orchestre symphonique Cancophonie (50 musiciens), avec production en concerts.",
 
     "skills.label": "05 · Compétences",
-    "skills.title": "Langages et outils maîtrisés.",
+    "skills.title": "Langages et outils maîtrisés",
     "s1.title": "Langages de programmation",
     "s2.title": "Mathématiques",
     "s2.i1": "Probabilités et combinatoire",
@@ -306,7 +306,7 @@ window.I18N = {
     "s4.i3": "Espagnol · B1",
 
     "beyond.label": "06 · Intérêts",
-    "beyond.title": "Centres d'intérêt.",
+    "beyond.title": "Centres d'intérêt",
     "b4.title": "Finance",
     "b4.desc": "Création de fonds personnels en SICAV ; sociétaire de la Caisse d'Épargne.",
     "b1.title": "Musique",
@@ -317,7 +317,7 @@ window.I18N = {
     "b3.desc": "Dix ans, avec des compétitions entre clubs.",
 
     "contact.label": "07 · Contact",
-    "contact.title": "Contact.",
+    "contact.title": "Contact",
     "contact.text": "Recherche d'un stage de 3 mois pour l'été 2027, en gestion de données ou en recherche en mathématiques appliquées à la finance (marchés, gestion d'actifs).",
     "contact.cv": "Télécharger le CV (PDF) ↓",
 
